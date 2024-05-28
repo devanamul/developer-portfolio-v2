@@ -63,8 +63,8 @@
     white-space: pre-wrap;
     max-height: 220px;
     width: max-content;
-    overflow: hidden;
-
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .snippet-container::-webkit-scrollbar {
@@ -130,7 +130,7 @@ export default {
         async setValues(gist) {
         this.gist = gist
         this.monthsAgo = this.setMonths(gist.created_at)
-        this.content = this.setSnippet(gist)
+        this.content = Object.values(gist.files)[0].content
         this.language = Object.values(gist.files)[0].language
         this.dataFetched = true
         this.comment = await this.setComments(gist.comments_url)
@@ -142,10 +142,6 @@ export default {
             let days = Math.floor(diff / (1000 * 3600 * 24))
             let months = Math.floor(days / 30)
             return months
-        },
-        setSnippet(gist) {
-            let snippet = Object.values(gist.files)[0].content // Object.values(gist.files)[0].filename.content
-            return snippet
         },
         async setComments(comments_url){
             let response = await fetch(comments_url)

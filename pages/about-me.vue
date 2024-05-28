@@ -10,7 +10,10 @@
       <!-- DESKTOP section icons -->
       <div id="sections">
         <div id="section-icon" v-for="section in config.dev.about.sections" :key="section.title" :class="{ active: isSectionActive(section.title)}">
-          <img :id="'section-icon-' + section.title" :src="section.icon" :alt="section.title + '-section'" @click="focusCurrentSection(section)">
+          <span class="flex flex-col" @click="focusCurrentSection(section)">
+            <img class="h-1/2 w-1/2" :id="'section-icon-' + section.title" :src="section.icon" :alt="section.title + '-section'">
+            <span class="text-gray-50 text-xs">{{section.title}}</span>
+          </span>
         </div>
       </div>
 
@@ -194,7 +197,7 @@
 }
 
 #section-icon {
-  @apply my-6 hover:cursor-pointer flex justify-center;
+  @apply my-6 hover:cursor-pointer flex justify-start px-2;
   opacity: 0.4;
 }
 
@@ -255,9 +258,7 @@
     overflow: hidden;
   }
 
-  #about {
-  min-height: stretch;
-}
+
 }
 
 .section-arrow {

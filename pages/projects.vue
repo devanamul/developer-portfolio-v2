@@ -80,7 +80,7 @@ import { ref } from 'vue'
 
 const config = useRuntimeConfig()
 
-const techs = ['React', 'HTML', 'CSS', 'Vue', 'Angular', 'Gatsby', 'Flutter']
+const techs = ['Django','React', 'PHP', 'Java']
 const filters = ref(['all'])
 const showFilters = ref(true)
 const projects = ref(config.public.dev.projects)
@@ -97,7 +97,7 @@ function filterProjects(tech) {
     filters.value = filters.value.filter((item) => item !== tech)
     filters.value.length === 0 ? filters.value.push('all') : null
   }
-  filters.value[0] == 'all' ? projects.value = config.public.dev.projects : projects.value = filterProjectsBy(filters.value)
+  filters.value[0] === 'all' ? projects.value = config.public.dev.projects : projects.value = filterProjectsBy(filters.value)
 
   if (projects.value.length === 0) {
     document.getElementById('projects-case').classList.remove('grid')

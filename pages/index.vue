@@ -19,11 +19,8 @@
 			</div>
 
 			<div id="info">
-				<span class="action">
-					// complete the game to continue
-				</span>
 				<span :class="{hide: isMobile}">
-					// you can also see it on my Github page
+					// find my profile on Github:
 				</span>
 				<span :class="{hide: !isMobile}">
 					// find my profile on Github:
@@ -47,6 +44,7 @@
 
 		<section data-aos="fade-up" class="game" v-if="!isMobile">
 			<SnakeGame />
+<!--      <img src="lab.jpg" alt="labimage">-->
 		</section>
 
 	</main>
@@ -86,6 +84,7 @@ function handleResize() {
   flex: 1 1 auto;
   padding-left: 275px;
   overflow: hidden;
+  //background: rgba(22, 6, 113, 0.45) url("public/lab.jpg");
 }
 .hero {
 	width: 100%;
@@ -105,8 +104,6 @@ function handleResize() {
 #hello .hero {
 	display: flex;
 	flex-direction: column;
-	/* display: grid;
-	grid-template-columns: repeat(12, minmax(0, 1fr)); */
 	margin: 0rem;
 }
 
