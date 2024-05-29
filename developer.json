@@ -10,15 +10,15 @@
                 "info": {
                     "experience": {
                         "title": "experience",
-                        "description": "<br>"
+                        "description": "<br>I started as a Trainee Associate Software Engineer at Softzino Technologies, where I trained for four months. Now, from april, 2024, I have been working as an Associate Software Engineer. This role allows me to apply my technical skills in real-world projects, further developing my expertise and contributing to innovative solutions in the software industry."
                     },
                     "hard-skills": {
                         "title": "hard-skills",
-                        "description": "<br>As a front-end developer, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<br>As a Software Engineer, I have a solid foundation in programming languages such as PHP, JavaScript, Python, Java and C/C++. My web development skills encompass a variety of technologies, including Laravel, Django, React.js, Next.js, Nuxt.js, and Vue.js. I possess a deep understanding of Object-Oriented Programming, Data Structures and Algorithms, and Database Management Systems. I continuously refine my problem-solving abilities on platforms like HackerRank, consistently enhancing my technical expertise."
                     },
                     "soft-skills": {
                         "title": "soft-skills",
-                        "description": "<br>I bring more than Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<br>Throughout my academic and professional journey, I have developed essential soft skills such as leadership, teamwork, and effective communication. Serving as the Joint General Secretary of the UIU Theatre & Film Club, I honed my organizational and leadership capabilities. My involvement in various university clubs has refined my collaborative skills, enabling me to thrive in diverse team settings and manage projects efficiently."
                     }
                 }
             },
@@ -32,15 +32,11 @@
                     },
                     "interests": {
                         "title": "interests",
-                        "description": "<br>I am constantly learning and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                        "description": "<br>I am deeply passionate about continuous learning and improvement in the field of software engineering. My interests lie in exploring innovative technologies and contributing to cutting-edge projects. Active participation in extracurricular activities and programming communities reflects my enthusiasm for both personal and professional growth."
                     },
                     "education": {
                         "title": "education",
-                        "description": "<br>I have always been passionate about lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "files": {
-                            "high-school": "I have been in 'Las viñas'...",
-                            "university": "The university..."
-                        }
+                        "description": "<br>I graduated with a Bachelor's degree in Computer Science and Engineering from United International University. My academic experience provided a comprehensive understanding of programming, software development, and various computer science principles. Additionally, I completed the CareerX 21 program at the Bangladesh Youth Leadership Center in 2022, further enhancing my professional skills and competencies."
                     }
                 }
             },
@@ -48,13 +44,13 @@
                 "title": "hobbies-info",
                 "icon": "icons/info-hobbies.svg",
                 "info": {
+                    "singing": {
+                        "title": "singing",
+                        "description": "I love singing and it brings me a lot of joy. Singing helps me express my feelings and connect with others through music. Whether I’m performing for people or just singing my favorite songs alone, it makes me feel happy and relaxed. This hobby also improves my confidence and helps me focus better."
+                    },
                     "sports": {
                         "title": "sports",
-                        "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    "favorite-games": {
-                        "title": "favorite-games",
-                        "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        "description": "<br>I enjoy playing cricket and foosball. Cricket is a fun way to stay active and spend time with friends, while foosball is a relaxing and exciting game I like to play to unwind. These sports hobbies keep me engaged, happy, and connected with others."
                     }
                 }
             }
@@ -64,7 +60,7 @@
         "direct": {
             "title": "contacts",
             "sources": {
-                "email": "ahfahad118@@gmail.com",
+                "email": "ahfahad118@gmail.com",
                 "phone": "+8801906145922"
             }
         },
@@ -88,6 +84,16 @@
         "find_me_also_in": {
             "title": "find-me-also-in",
             "sources": {
+                "linkedin": {
+                    "title": "Linked",
+                    "url": "https://linkedin.com/in/",
+                    "user": "devahasan"
+                },
+                "facebook": {
+                    "title": "Facebook",
+                    "url": "https://facebook.com/",
+                    "user": "Anamul.H.Fahad"
+                },
                 "youtube": {
                     "title": "YouTube",
                     "url": "https://www.youtube.com/",
