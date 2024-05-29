@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    height: stretch;
+    height: 100vh;
     width: stretch;
 }
 
